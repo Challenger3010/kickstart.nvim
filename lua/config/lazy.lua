@@ -74,7 +74,7 @@ require('lazy').setup({
   -- after the plugin has been loaded as `require(MODULE).setup(opts)`.
 
   -- LSP Plugins
-
+  require 'kickstart.plugins.oil', 
   require 'kickstart.plugins.lsp', -- Autoformat
   require 'kickstart.plugins.autofmt', -- Autoformat
   require 'kickstart.plugins.blink', -- Autocompletion
