@@ -120,7 +120,12 @@ return {
       local servers = {
         -- clangd = {},
         -- gopls = {},
-        -- pyright = {},
+        pyright = {},
+        intelephense = {
+          cmd = {"intelephense", "--stdio"},
+          filetypes = {"php", "html"},
+          root_markers = { ".git", "composer.json" },
+        },
         -- rust_analyzer = {},
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -130,6 +135,7 @@ return {
         -- ts_ls = {},
 
         stylua = {}, -- Used to format Lua code
+
 
         -- Special Lua Config, as recommended by neovim help docs
         lua_ls = {

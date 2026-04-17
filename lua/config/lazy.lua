@@ -73,7 +73,7 @@ require('lazy').setup({
   -- Then, because we use the `opts` key (recommended), the configuration runs
   -- after the plugin has been loaded as `require(MODULE).setup(opts)`.
 
-  -- LSP Plugins
+  require 'kickstart.plugins.ts_server', 
   require 'kickstart.plugins.oil', 
   require 'kickstart.plugins.lsp', -- Autoformat
   require 'kickstart.plugins.autofmt', -- Autoformat
