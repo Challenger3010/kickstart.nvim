@@ -54,3 +54,4 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 vim.keymap.set('n', '-', '<cmd>Oil<CR>', { desc = 'Open parent directory in Oil' })
 
+vim.keymap.set('i', '<C-H>', '<C-w>', { noremap = true, silent = true })

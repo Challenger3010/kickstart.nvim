@@ -119,7 +119,7 @@ return {
       ---@type table<string, vim.lsp.Config>
       local servers = {
         -- clangd = {},
-        -- gopls = {},
+        gopls = {},
         pyright = {},
         intelephense = {
           cmd = {"intelephense", "--stdio"},

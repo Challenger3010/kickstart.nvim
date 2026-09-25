@@ -37,6 +37,7 @@ return { -- Autoformat
         javascript = { "prettierd", "prettier", stop_after_first = true },
 
         php = { "pint", "php_cs_fixer", stop_after_first = true },
+        go = { 'goimports', 'gofmt' },  
       },
     },
   }
